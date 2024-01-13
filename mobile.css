@@ -15,9 +15,10 @@ nav{
 .team-img img {
     width: 100%;
 }
+
 .team-content {
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 0px;
+    
 }
 
 /* facts card */
@@ -29,3 +30,14 @@ nav{
 margin-bottom: 10px;
 }
 
+/* sponsor section */
+
+.sponsor-img {
+    flex-direction: column;
+}
+.sponsor-img img{
+    width: 80%;
+}
+.sponsor-content {
+    max-width: 100%;
+}
