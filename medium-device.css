@@ -13,6 +13,16 @@ nav{
     width: 100%;
     margin-top: 40px;
 }
+/* f section */
+.features img {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.features {
+    flex-direction: column-reverse;
+}
+
 /* facts card section */
 .card {
     padding: 20px;
