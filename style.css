@@ -120,8 +120,38 @@ main{
 }
 .team-title .text-features{
     color: #FF900E;
-    font-weight: 700;
+    font-weight: 700;}
+
+
+/*features  */
+#Features-border{
+    border-left: 5px solid orangered;
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
+.features{
+    display: flex;
+    margin-top: 75px;
+    column-gap: 50px;
+    
+}
+.features img{
+    width: 150%;
+}
+.features-title{
+    font-size: 19px;
+}
+.features-card{
+    border-radius: 8px;
+    background:#fff;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+padding:10px;
+margin-bottom: 20px;
+margin-top: 15px;
+}
+
+
+
 
 /* facts section */
 .facts-card{
@@ -159,7 +189,14 @@ main{
     margin: 70px auto 0px auto;
 }
 
-
+footer{
+    background-color: aquamarine;
+    padding: 25px;
+    text-align: center;
+    max-width: calc(100% - 15%);
+    margin: 0px auto;
+    border-radius: 10px;
+}
 
 
 
