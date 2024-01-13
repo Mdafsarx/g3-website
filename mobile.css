@@ -19,3 +19,13 @@ nav{
     padding-left: 0px;
     padding-right: 0px;
 }
+
+/* facts card */
+.facts-card{
+    flex-direction: column-reverse;
+    
+}
+.card{
+margin-bottom: 10px;
+}
+
