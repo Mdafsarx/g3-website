@@ -4,7 +4,7 @@
 
 *{
     font-family: 'Work Sans', sans-serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -13,9 +13,12 @@
 .common-button{
     font-size: 18px;
     color: white;
-    padding: 5px;
+    padding: 7px;
     background-color: orangered;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 
@@ -35,6 +38,7 @@ font-size: 2.2rem;
 font-style: normal;
 font-weight: 500;
 color: #131313;
+
 }
 nav > ul{
     display: flex;
@@ -56,7 +60,10 @@ color: #424242;
 .banner-content{
     max-width: 780px;
     text-align: center;
-    margin: 80px auto;
+    margin: 80px auto 25px auto;
+    /* margin-top: 200px; */
+    
+
 }
 .banner-title{
 font-size:53px;
@@ -67,11 +74,9 @@ color:  #131313;
 color: #727272;
 
 }
-.common-button{
-    font-size: 18px;
-    color: white;
-    padding: 6px;
-}
+ .banner img{
+    width: 100%;
+ }
 
 
 
