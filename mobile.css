@@ -1,3 +1,4 @@
+/* header section */
 header {
 
     padding: 10px;
@@ -5,4 +6,16 @@ header {
 
 nav{
     flex-direction: column;
+}
+/* team section */
+.team-container {
+   
+    flex-direction: column;
+}
+.team-img img {
+    width: 100%;
+}
+.team-content {
+    padding-left: 0px;
+    padding-right: 0px;
 }

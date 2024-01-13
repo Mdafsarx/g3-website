@@ -1,6 +1,6 @@
 /* FONT style work sens */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;0,800;1,400;1,500&display=swap');
-/* shared button */
+/* shared start */
 
 *{
     font-family: 'Work Sans', sans-serif;
@@ -8,19 +8,27 @@
     margin: 0;
     padding: 0;
 }
-
+.common-gray{
+    color: #727272;
+    
+    }
+    .common-h2{
+        font-size: 2.2rem;
+        font-style: normal;
+        font-weight: 500;
+            color: #131313}
 
 .common-button{
     font-size: 18px;
     color: white;
-    padding: 7px;
+    padding: 10px;
     background-color: orangered;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
 }
-
+/* shared end */
 
 /* nav style */
 header{
@@ -33,16 +41,12 @@ nav{
     display: flex;
     justify-content: space-between;
 }
-.common-h2{
-font-size: 2.2rem;
-font-style: normal;
-font-weight: 500;
-color: #131313;
 
-}
+
+
 nav > ul{
     display: flex;
-    /* gap: 20px; */
+    
 }
 ul  li{
     list-style: none;
@@ -70,16 +74,71 @@ font-size:53px;
 /* font-weight: 700; */
 color:  #131313;
 }
-.banner-describtion{
-color: #727272;
 
-}
  .banner img{
     width: 100%;
  }
 
 
+/* main section */
 
+main{
+    max-width: calc(100% - 30%);
+    margin: 75px auto;
+}
+
+/*  team container */
+
+.team-container{
+    display: flex;
+    align-items: center;
+
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+
+}
+
+
+.team-content{
+    padding-left: 60px;
+    padding-right: 10px;
+
+}
+.team-title{
+    font-size: 2rem;
+}
+
+ .team-title .quick-list{
+    font-weight: 500;
+    color: #727272;
+}
+.team-title .text-features{
+    color: #FF900E;
+    font-weight: 700;
+}
+
+/* facts section */
+.facts-card{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.card{
+    border-radius: 8px;
+    border: 2px solid #FF900E;
+    padding: 45px;
+    text-align: center;
+}
+
+.facts-content{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
 
 
 
