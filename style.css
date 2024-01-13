@@ -1,0 +1,102 @@
+/* FONT style work sens */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;0,800;1,400;1,500&display=swap');
+/* shared button */
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.common-button{
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    background-color: orangered;
+    border: none;
+}
+
+
+/* nav style */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 60px 240px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.common-h2{
+font-size: 2.2rem;
+font-style: normal;
+font-weight: 500;
+color: #131313;
+}
+nav > ul{
+    display: flex;
+    /* gap: 20px; */
+}
+ul  li{
+    list-style: none;
+    margin-right: 29px;
+    font-size: 18px;
+font-weight: 500;
+}
+ul li a{
+    text-decoration: none;
+color: #424242;
+}
+
+/* banner style */
+
+.banner-content{
+    max-width: 780px;
+    text-align: center;
+    margin: 80px auto;
+}
+.banner-title{
+font-size:53px;
+/* font-weight: 700; */
+color:  #131313;
+}
+.banner-describtion{
+color: #727272;
+
+}
+.common-button{
+    font-size: 18px;
+    color: white;
+    padding: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
