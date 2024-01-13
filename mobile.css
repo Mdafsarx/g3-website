@@ -20,6 +20,14 @@ nav{
     margin-left: 0px;
     
 }
+/* f section */
+.features {
+    flex-direction: column;
+}
+.features img {
+    width: 100%;
+}
+
 
 /* facts card */
 .facts-card{

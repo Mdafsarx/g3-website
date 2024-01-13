@@ -136,8 +136,12 @@ main{
     
 }
 .features img{
-    width: 150%;
+    width: 130%;
+margin-left: 50px;
+    /* margin-right: 100px; */
 }
+
+
 .features-title{
     font-size: 19px;
 }
@@ -149,7 +153,17 @@ padding:10px;
 margin-bottom: 20px;
 margin-top: 15px;
 }
-
+.ten-years{
+    background-color: #FF900E;
+    max-width: 60%;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    bottom: 60px;
+    
+    }
 
 
 
@@ -180,6 +194,7 @@ margin-top: 15px;
     justify-content: space-between;
     gap: 30px;
     margin-top: 60px;
+    
 }
 
 
